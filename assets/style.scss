@@ -1,0 +1,115 @@
+@import 'bootstrap/scss/bootstrap';
+h2 {
+  line-height: 18px;
+  font-family: Courier New, Courier, monospace;
+  text-align: justify;
+  background-color: rgba(230, 34, 34, 0.6);
+  border-radius: 50px;
+  border: 5px solid black;
+  font-family: 'PT Sans', sans-serif;
+  color: #fff1e2;
+  padding: 40px;
+  line-height: 40px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.bstone {
+  height: auto;
+  width: auto;
+  float: left;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  max-width: 100px;
+  max-height: 100px;
+  opacity: 0.7;
+}
+
+.bstone2 {
+  height: auto;
+  width: auto;
+  float: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 575px;
+  max-height: 575px;
+  opacity: 0.7;
+}
+
+h3 {
+  font-family: 'PT Sans', sans-serif;
+  text-align: justify;
+  background-color: rgba(230, 34, 34, 0.6);
+  border-radius: 50px;
+  border: 5px solid black;
+  color: #472101;
+  padding: 30px;
+  line-height: 30px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+h4 {
+  font-family: 'PT Sans', sans-serif;
+  text-align: justify;
+  line-height: 30px;
+  padding: 30px;
+  background-color: rgba(230, 34, 34, 0.6);
+  border-radius: 50px;
+  border: 5px solid black;
+  color: #472101;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.hero {
+  position: relative;
+  background-image: url("https://i.ytimg.com/vi/fOvBQXIs3Dc/maxresdefault.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 800px;
+  margin-bottom: 50px;
+  nav {
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    z-index: 3;
+  }
+  .olympic-logo {
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    img {
+      height: 600px;
+      position: absolute;
+      left: 330px;
+      top: 100px;
+    }
+  }
+  .diagonal {
+    position: relative;
+    z-index: 1;
+  }
+  .diagonal:after {
+    right: 0;
+    left: 200px;
+    width: 100px;
+    position: absolute;
+    -webkit-transform: skewX(-15deg) rotate(180deg);
+    -ms-transform: skewX(-15deg) rotate(180deg);
+    transform: skewX(-15deg) rotate(180deg);
+    content: "";
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(235, 218, 218, 0.54);
+    z-index: -1;
+  }
+}
