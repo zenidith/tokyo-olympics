@@ -1,4 +1,10 @@
 @import 'bootstrap/scss/bootstrap';
+body {
+  
+    background-color: #0D001E;
+  
+  }
+
 h2 {
   line-height: 18px;
   font-family: Courier New, Courier, monospace;
@@ -47,7 +53,7 @@ h3 {
   background-color: rgba(230, 34, 34, 0.6);
   border-radius: 50px;
   border: 5px solid black;
-  color: #472101;
+  color: #fff1e2;
   padding: 30px;
   line-height: 30px;
   padding-left: 15%;
@@ -62,7 +68,7 @@ h4 {
   background-color: rgba(230, 34, 34, 0.6);
   border-radius: 50px;
   border: 5px solid black;
-  color: #472101;
+  color: #fff1e2;
   padding-left: 15%;
   padding-right: 15%;
 }
